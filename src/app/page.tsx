@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div className=" flex justify-center items-center h-screen text-center ">
       <div>
-        <p className="text-8xl mb-2 ">Hello there Sooraj Rao</p>
+        <p className="text-8xl mb-2 ">Hii Sooraj Rao</p>
         <p className="text-xl ">
           Contact me at{" "}
           <a
