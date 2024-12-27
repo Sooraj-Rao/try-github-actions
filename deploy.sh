@@ -10,4 +10,4 @@ git pull origin main
 docker build -t demo .
 docker stop demo || true
 docker rm demo || true
-docker run -d -p 3001:3001 demo
+docker run  -d --name demo -p 3001:3001  demo
