@@ -6,7 +6,7 @@ const page = () => {
       <div>
         <p className="text-8xl mb-2 ">Hello Sooraj Rao</p>
         <p className="text-xl ">
-          Contact me at{" "}
+          Lets connect{" "}
           <a
             target="_blank"
             href="https://soorajrao.in"

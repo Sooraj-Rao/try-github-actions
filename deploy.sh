@@ -21,6 +21,8 @@ fi
 # Build the Docker image
 docker build -t demo .
 
+docker image prune -f
+
 # Run the Docker container
 docker run -d --name demo -p 3001:3001 demo
 
