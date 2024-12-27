@@ -22,7 +22,7 @@ fi
 docker build -t demo .
 
 # Run the Docker container
-docker run -d -p 3001:3001 demo
+docker run -d --name demo -p 3001:3001 demo
 
 # Optionally, you can check the logs to ensure everything is running properly
 docker logs -f demo
